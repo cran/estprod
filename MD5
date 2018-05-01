@@ -1,7 +1,8 @@
-e51b829768f630576920a8cf819b7731 *DESCRIPTION
-3a5afc3719444aa55fb0cdc546e4a905 *NAMESPACE
+1dbbdcbcbdec219c11957facdff13ad9 *DESCRIPTION
+4cde7a8d258933ef022976f6fb4f0f95 *NAMESPACE
 f7efa25b9aaec37f9ef316f43805a0d8 *R/boot_levinsohn_petrin.R
 be1dbb46e71f2f03b40544bf95ea22cb *R/boot_olley_pakes.R
+910d564b4c7713e96ba6775fb0f81319 *R/boot_wooldridge.R
 85b03c0fa48bae097eda25eb61d8cdac *R/estprod_data.R
 910530a9007f45830c923da5f4e28076 *R/fs.R
 0e6a354cc39384afb24b950a8b5a389f *R/interactions.R
@@ -9,11 +10,13 @@ be1dbb46e71f2f03b40544bf95ea22cb *R/boot_olley_pakes.R
 23d2f5524e6db7cafd2d53b8eeee39ca *R/olley_pakes.R
 cec33f329e259d4ac56e000032fa369e *R/panel_lag.R
 04a18d958b8043159ea0e28b3848ae67 *R/poly_elements.R
-77b1ffada31a1a1173b193e72649cfb9 *R/print.estprod.R
-a5eca603b20bca41acc7454424bc628f *R/ss_lp_gross.R
-fd45ec2cb15966c86cb60ae4811d6503 *R/ss_lp_va.R
-28a5fc07b504b6af145c71dcd664d0a9 *R/ss_op.R
+b6084a761a0e61af26e56f801a1ee1a3 *R/poly_name.R
+c199933802104e5d98269449143ae0bf *R/print.estprod.R
+1f9f8f962eb51a3b38c4aa1453ae208b *R/ss_lp_gross.R
+9b229324b63806c866d8eb4b03966996 *R/ss_lp_va.R
+794fff217925625e1c322c0facac31b8 *R/ss_op.R
 4868fb5f2d8002a65fd84e84897222c6 *R/summary.estprod.R
+39ef7d08807f6159d1c4261d85e08517 *R/wooldridge.R
 16ec7d419dc0d87bdf71b42127bb0e5b *data/estprod_data.rda
 002a97cdb849b44042ac0fbbb08090f3 *man/estprod_data.Rd
 ff0e28b13e488c8863c502196ae5f3b3 *man/interactions.Rd
@@ -21,3 +24,4 @@ c053fbb08377fcb9ecee304ecd2a7d23 *man/levinsohn_petrin.Rd
 fbf5440e88baa58349001610ea884671 *man/olley_pakes.Rd
 75e1499d2cfe8557cc7ac7f9d0bb526e *man/panel_lag.Rd
 ebe0d09a7f313949c38a67a81ea3bca4 *man/poly_elements.Rd
+a8a8f29248c1a7748fb057344d59d494 *man/wooldridge.Rd
