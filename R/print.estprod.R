@@ -1,3 +1,4 @@
+#' @import stats
 #' @export
 print.estprod <- function(x, ...){
 

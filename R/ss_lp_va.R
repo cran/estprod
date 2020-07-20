@@ -1,3 +1,4 @@
+#' @import stats
 ss_lp_va <- function(y, free, capital, proxy, controls, id, time, phi, myprobit_lag, degree, k_length, proxy_length, controls_length, beta_fs_matrix, beta_fs_free, maxiter, ...) {
   #-----------------------------------------------------
   #Segundo estágio (ss) valor adicionad

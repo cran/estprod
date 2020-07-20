@@ -18,6 +18,7 @@ utils::globalVariables(c("phi", "myprobit_lag", "beta_fs_matrix", "beta_fs_free"
 #' @examples data(estprod_data)
 #' olley_pakes(data = estprod_data, var1 ~ var2 | var3 | var4, 
 #' exit = ~exit, id = "id", time = "year", bootstrap = TRUE)
+#' @import stats
 #' @export
 
 olley_pakes <- function(data, formula = y ~ free | capital | proxy | controls, exit = NULL, id = "id", time = "year", 

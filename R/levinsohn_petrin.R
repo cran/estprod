@@ -20,6 +20,7 @@ utils::globalVariables(c("phi", "myprobit_lag", "beta_fs_matrix", "beta_fs_free"
 #' data(estprod_data)
 #' levinsohn_petrin(data = estprod_data, var1 ~ var2 | var3 | var4, 
 #' exit = ~exit, id = "id", time = "year", bootstrap = TRUE)
+#' @import stats
 #' @export
 
 levinsohn_petrin <- function(data, formula = y ~ free | capital | proxy | controls, exit = NULL, gross = FALSE, id = "id", time = "year", 

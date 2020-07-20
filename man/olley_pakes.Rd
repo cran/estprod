@@ -4,9 +4,19 @@
 \alias{olley_pakes}
 \title{Olley-Pakes Estimation of Production Functions}
 \usage{
-olley_pakes(data, formula = y ~ free | capital | proxy | controls,
-  exit = NULL, id = "id", time = "year", bootstrap = TRUE, reps = 2,
-  degree = c(3, 2), verify = TRUE, maxiter = 100, ...)
+olley_pakes(
+  data,
+  formula = y ~ free | capital | proxy | controls,
+  exit = NULL,
+  id = "id",
+  time = "year",
+  bootstrap = TRUE,
+  reps = 2,
+  degree = c(3, 2),
+  verify = TRUE,
+  maxiter = 100,
+  ...
+)
 }
 \arguments{
 \item{data}{A data.frame or tibble containing the variables of the model.}

@@ -4,9 +4,18 @@
 \alias{wooldridge}
 \title{Wooldridge Estimation of Production Functions (Cobb-Douglas)}
 \usage{
-wooldridge(data, formula = y ~ free | capital | proxy | controls,
-  gross = FALSE, id = "id", time = "year", bootstrap = FALSE,
-  reps = 2, degree = c(3, 2), verify = TRUE, ...)
+wooldridge(
+  data,
+  formula = y ~ free | capital | proxy | controls,
+  gross = FALSE,
+  id = "id",
+  time = "year",
+  bootstrap = FALSE,
+  reps = 2,
+  degree = c(3, 2),
+  verify = TRUE,
+  ...
+)
 }
 \arguments{
 \item{data}{A data.frame or tibble containing the variables of the model.}

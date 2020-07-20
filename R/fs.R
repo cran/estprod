@@ -1,4 +1,5 @@
 if(getRversion() >= "2.15.1")  utils::globalVariables(c("phi"))
+#' @import stats
 fs <- function(data, y, free, capital, proxy, controls, formula, exit, degree, id, time){
   
   # for (i in 1:length(prev_stage)){
@@ -79,5 +80,6 @@ fs <- function(data, y, free, capital, proxy, controls, formula, exit, degree, i
   assign("beta_fs_matrix", beta_fs_matrix, envir = parent.frame())
   assign("myprobit_lag", myprobit_lag, envir = parent.frame())
   assign("residuals_fs_matrix", residuals_fs_matrix, envir = parent.frame())
+  
   
 }

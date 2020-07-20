@@ -3,8 +3,7 @@
 #' @param n The number of variables.
 #' @param d Degreess of polynomial interaction.
 #' @export
-poly_elements <- function (n, d) {
-  if (d < 1) return(0)
-  component <- sapply(1:d, interactions, n = n)
-  list(component = component, ncol = sum(component))
+poly_elements <- function(n, d) {
+  x <- sapply(1:d, combination_with_repetition, n = n) 
+  return(sum(x))
 }

@@ -4,10 +4,20 @@
 \alias{levinsohn_petrin}
 \title{Levinsohn-Petrin Estimation of Production Functions}
 \usage{
-levinsohn_petrin(data, formula = y ~ free | capital | proxy | controls,
-  exit = NULL, gross = FALSE, id = "id", time = "year",
-  bootstrap = TRUE, reps = 2, degree = c(3, 3), verify = TRUE,
-  maxiter = 100, ...)
+levinsohn_petrin(
+  data,
+  formula = y ~ free | capital | proxy | controls,
+  exit = NULL,
+  gross = FALSE,
+  id = "id",
+  time = "year",
+  bootstrap = TRUE,
+  reps = 2,
+  degree = c(3, 3),
+  verify = TRUE,
+  maxiter = 100,
+  ...
+)
 }
 \arguments{
 \item{data}{A data.frame or tibble containing the variables of the model.}

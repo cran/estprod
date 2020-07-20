@@ -17,6 +17,7 @@ utils::globalVariables(c("phi", "myprobit_lag", "beta_fs_matrix", "beta_fs_free"
 #' @examples data(estprod_data)
 #' wooldridge(data = estprod_data, var1 ~ var2 | var3 | var4, 
 #' id = "id", time = "year", bootstrap = TRUE)
+#' @import stats
 #' @export
 
 wooldridge <- function(data, formula = y ~ free | capital | proxy | controls, gross = FALSE, id = "id", time = "year",
